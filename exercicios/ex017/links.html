@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: rgb(255, 0, 0) ;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(5, 146, 146);
+        }
+        a:hover{
+            color: rgb(0, 17, 255);
+            text-decoration: underline;
+        }
+        a:active{
+            color: magenta;
+        }
+        .relevante {
+            background-color: aqua;
+        }
+        .relevante::before{
+            content:'»';
+            color: rgb(23, 1, 224);
+
+        }
+        .relevante::after{
+            content:'«';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(23, 1, 224);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank" class="relevante">YouTube</a></li>
+        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">Curso em video</a></li>
+        <li><a href="https://www.facebook.com/?locale=pt_BR">Facebook</a></li>
+        <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiI5rK45uqIAxX1D60GHdDoJ6EYABAAGgJwdg&co=1&ase=2&gclid=Cj0KCQjwmOm3BhC8ARIsAOSbapUe1rIbtoR3T9c-IyalE83XXDL3TGdicdP8sPfN0SB4OzDfzfeQlAsaAnFWEALw_wcB&ohost=www.google.com&cid=CAESVeD2hjRD1p4s62IVIIBVDCJSpwRqTIryuoceu5aBwFV5CPoJW7LeOpna_58vC52Vmcg_iT2_vpadqcYdQx_qaJMJHe6fGX3sjaj7-IrF0xR0DAHKfqU&sig=AOD64_1XEkfE86zFVQ-3jtGLlkmlgBTTEA&q&nis=4&adurl&ved=2ahUKEwjp7am45uqIAxVpr5UCHayOBqcQ0Qx6BAgJEAE">Udemy</a></li>
+    </ul>
+    
+</body>
+</html>

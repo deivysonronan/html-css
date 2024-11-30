@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+h1{
+    color: white;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50pt;
+    padding-left: 280px;
+}
+
+h2{
+    color: white;
+    position: relative;
+    padding: 150px;
+    padding-top: 80px;
+
+}
+
+img#botao{ 
+   position: absolute;
+   padding-left: 600px;
+}
+
+#quadro{
+    position: absolute;
+    padding-top: 50px;
+    padding-left: 450px;
+    width: 700px;
+    height: 700px;
+
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Teste as imagens em seu dispositivo ou aumente e diminua o zoom.</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/imagem-p.png" type="imagem/png">
+        <source media="(max-width: 1050px )" srcset="imagens/imagem-m.png" type="imagem/png">
+        <img src="imagens/imagem-g.png" alt="Imagem tamanho G">
+    </picture>
+    <h1>Inserindo aúdio no seu site</h1>
+    <p>Aúdios para teste</p>
+    <audio src="midia/happy-mistake.mp3" controls></audio><br>
+
+    <audio controls autoplay>
+       <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+      <!-- <source src="midia/guanacast-33.ogg" type="audio/ogg">
+       <source src="midia/guanacast-33.mav" type="audio/mav">-->
+    </audio>
+
+</body>
+</html>
