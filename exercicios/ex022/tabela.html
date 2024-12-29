@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupando colunas com Colgroup </title>
+    <style>
+        caption{
+            background-color: rgba(0, 0, 0, 0.322);
+            font-weight: bolder;
+        }
+        table{
+            border-collapse: collapse;
+            font-size: 1.5em;
+            
+
+        
+        }
+        td, th{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2em;
+            border: 2px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+       .nome{
+            background-color: rgba(169, 169, 169, 0.349);
+        }
+        .idade{
+            background-color: rgba(250, 235, 215, 0.521);
+        }
+        .sexo{
+            background-color: rgba(169, 169, 169, 0.349);
+        }
+        /*.prof{
+            background-color: rgba(250, 235, 215, 0.521) 
+        }*/
+        div#container{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas Responsivas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio veniam ab pariatur, neque possimus officiis. Atque consequuntur perspiciatis deleniti eveniet cupiditate voluptatem laudantium cum mollitia similique, tenetur accusamus corrupti quod.</p>
+    <div id="container">
+        <table>
+            <colgroup>
+                <col class="nome">
+                <col class="idade">
+                <col class="sexo" span="2">
+                <!--<col class="prof">-->
+        
+            </colgroup>
+            <caption>Agrupando colunas</caption>
+            <thead><tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Profissão</th>
+            </tr></thead>
+            <tbody><tr>
+                <td>Ana</td>
+                <td>25</td>
+                <td>Feminino</td>
+                <td>Advogada</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>30</td>
+                <td>Masculino</td>
+                <td>Músico</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>32</td>
+                <td>Masculino</td>
+                <td>Dentista</td>
+            </tr>
+            <tr>
+                <td>Tiago</td>
+                <td>20</td>
+                <td>Masculino</td>
+                <td>Estagiário</td>
+            </tr>
+        
+        
+        
+        </tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
+</body>
+</html>
