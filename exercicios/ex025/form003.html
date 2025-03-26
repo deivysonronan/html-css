@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formuário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome"> Nome: </label>
+            <input type="text" name="nome" id="inome" required minlength="30" placeholder="Nome Completo" size="10">
+        </p>
+        <p>
+            <label for="imedia">Média:</label>
+            <input type="number" name="media" id="imedia" required min="0" max="10" placeholder="0 a 10" step="0.1" >
+        </p>
+        <p>
+            <label for="imes">Periodo Letivo:</label>
+            <input type="month" name="mes" id="imes" required>
+        </p>
+        <p>
+            <label for="idata">Data de início:
+            </label>
+            <input type="date" name="data" id="idata" required>
+        </p>
+        <p>
+            <label for="itempo">Hora aula:</label>
+            <input type="time" name="tempo" id="itempo" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+
+
+        <!-- <p>
+            <label for="imedia">Média:</label>
+            <input type="number" name="media" id="imedia" required min="0" max="10" placeholder="0 a 10" step="0.1" value="5">
+
+            obs.: O *value="5"* é usado como um quebra galho, pois no JavaScript existe linha de código para resolver essa necessidade!!!
+        </p>-->
+
+
+    </form>
+</body>
+</html>
