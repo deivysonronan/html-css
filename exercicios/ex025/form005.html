@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.php"  method="get"  autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p><label for="isexo">Sexo: </label>
+            <input type="radio" name="sexo" id="imas" value="M" checked>Masculino
+            <input type="radio" name="sexo" id="ifem" value="F">Feminino</p>
+        </fieldset>
+        <fieldset>
+            <Legend>Cursos</Legend>
+            <p><input type="checkbox" name="nutri" id="inutri"><label for="inutri"> Nutrição</label></p>
+            <p><input type="checkbox" name="enfer" id="ienfer"><label for="ienfer">Enfermagem</label></p>
+            <p><input type="checkbox" name="tec" id="itec"><label for="itec"> Sistemas de Informação</label></p>
+        
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+
+
+    </form>
+    
+</body>
+</html>
